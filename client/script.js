@@ -74,7 +74,7 @@ const handleSubmit =async (e)=>{
   loader(messageDiv);
   
   // Fetching the data from server--> Bot's response
-  const response= await fetch('http://localhost:5000',{
+  const response= await fetch('https://chatgptclone-ekgd.onrender.com',{
     method: "POST",
     headers: {
       'Content-Type' :'application/json'
